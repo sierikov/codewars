@@ -1,7 +1,5 @@
 import static org.junit.Assert.*;
 
-import java.util.Random;
-
 import org.junit.Test;
 
 public class DivisibleNbTests {
@@ -39,7 +37,7 @@ public class DivisibleNbTests {
     public void test08(){
         assertFalse(DivisibleNb.isDivisible( 5424897706710159648L, -8251119498654879732L, -6359135171978353458L));
     }
-        
+
     @Test
     public void test09() {
         assertFalse(DivisibleNb.isDivisible(-131361573408116576L, 3430963036136568485L, -7035601325870163798L));
