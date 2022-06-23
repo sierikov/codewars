@@ -1,7 +1,7 @@
 .vscode
 .metals
 .bsp
-.idea
 target
 out
 .DS_STORE
+.idea
