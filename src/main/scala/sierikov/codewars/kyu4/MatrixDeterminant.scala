@@ -1,8 +1,8 @@
 package sierikov.codewars.kyu4
 
 /**
- * Task: write a function that accepts a square matrix (N x N 2D array) and returns the determinant of the matrix.
- */
+  * Task: write a function that accepts a square matrix (N x N 2D array) and returns the determinant of the matrix.
+  */
 object MatrixDeterminant {
 
   type Grid = Array[Array[Int]]
