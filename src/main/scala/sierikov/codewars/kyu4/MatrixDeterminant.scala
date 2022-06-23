@@ -1,6 +1,7 @@
 package sierikov.codewars.kyu4
 
 object MatrixDeterminant {
+
   type Grid = Array[Array[Int]]
 
   def determinant(matrix: Grid): Int = {
@@ -45,15 +46,12 @@ object MatrixDeterminant {
     det
   }
 
-  def reduceMatrix(matrix: Grid, column: Int): Array[Array[Int]] = matrix
-    .drop(1)
-    .map(row =>
-      row.zipWithIndex
-        .filter { case (_, index) =>
-          index != column
-        }
-        .map { case (value, _) =>
-          value
-        }
-    )
+  def reduceMatrix(matrix: Grid, column: Int): Array[Array[Int]] =
+    matrix
+      .drop(1)
+      .map(row =>
+        row.zipWithIndex
+          .filter { case (_, index) => index != column }
+          .map { case (value, _) => value }
+      )
 }

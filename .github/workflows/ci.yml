@@ -3,6 +3,21 @@ on:
   pull_request:
   push:
 jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup JDK
+        uses: actions/setup-java@v2
+        with:
+          distribution: temurin
+          java-version: 11
+      - name: Format sources
+        run: sbt scalafmtCheck
+      - name: Format test
+        run: sbt test:scalafmtCheck
+
   test:
     runs-on: ubuntu-latest
     steps:
@@ -11,7 +26,7 @@ jobs:
       - name: Setup JDK
         uses: actions/setup-java@v2
         with:
-          distribution: corretto
+          distribution: temurin
           java-version: 11
       - name: Build and Test
         run: sbt -v +test

@@ -18,8 +18,8 @@ class MatrixDeterminantTest extends AnyFlatSpec with Matchers {
       val matrixStr = s"Array(${matrix.map(r => s"Array(${r.mkString(", ")})").mkString(", ")})"
       s"determinant($matrixStr)" should s"return $expected" in {
         message match {
-          case Some(_) => withClue(message) { MatrixDeterminant.determinant(matrix) should be (expected) }
-          case None => MatrixDeterminant.determinant(matrix) should be (expected)
+          case Some(_) => withClue(message) { MatrixDeterminant.determinant(matrix) should be(expected) }
+          case None => MatrixDeterminant.determinant(matrix) should be(expected)
         }
       }
   }
