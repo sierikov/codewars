@@ -5,6 +5,10 @@ import scala.collection.mutable.ArrayBuffer
 
 object JosephusSurvivor {
 
+  def calcMath(amount: Int, step: Int): Int =
+    if (amount == 1) 1
+    else (calcMath(amount - 1, step) + step - 1) % amount + 1
+
   def calc(amount: Int, step: Int): Int = helper(generateList(amount), step).last
 
   def generateList(amount: Int): ArrayBuffer[Int] = (1 to amount).to(ArrayBuffer)
