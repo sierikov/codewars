@@ -3,10 +3,11 @@ package sierikov.codewars.kyu5
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers.convertToAnyShouldWrapper
 
-class RgbToHexConversionTest extends AnyFlatSpec{
+class RgbToHexConversionTest extends AnyFlatSpec {
+
   val testData: Seq[(Int, Int, Int, String)] = List(
-    (0,0,0, "000000"),
-    (1,2,3, "010203"),
+    (0, 0, 0, "000000"),
+    (1, 2, 3, "010203"),
     (255, 255, 255, "FFFFFF"),
     // edge cases
     (-20, 275, 125, "00FF7D"),

@@ -11,7 +11,7 @@ object ProductOfConsecutiveFibNumbers {
       next = n + next;
       n = next - n;
     }
-    Array(n, next, if(n * next == target) 1 else 0);
+    Array(n, next, if (n * next == target) 1 else 0);
   }
 
   def find(target: Long): Array[Long] = {

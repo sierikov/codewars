@@ -2,7 +2,7 @@ package sierikov.codewars.kyu5
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class NumberTrailingZerosFactTest extends AnyFlatSpec{
+class NumberTrailingZerosFactTest extends AnyFlatSpec {
   it should "work with example tests" in {
     assert(NumberTrailingZerosFact.zeros(0) == 0)
     assert(NumberTrailingZerosFact.zeros(6) == 1)
