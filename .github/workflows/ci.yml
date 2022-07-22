@@ -16,7 +16,7 @@ jobs:
       - name: Format sources
         run: sbt scalafmtCheck
       - name: Format test
-        run: sbt test:scalafmtCheck
+        run: sbt Test/scalafmtCheck
 
   test:
     runs-on: ubuntu-latest
