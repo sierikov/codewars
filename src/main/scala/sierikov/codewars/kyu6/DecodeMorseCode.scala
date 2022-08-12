@@ -66,16 +66,11 @@ object DecodeMorseCode {
     )
   }
 
-  val getWords: String => List[String] = code => code.split(" {3}").toList
-  val composeMessage: List[String] => String = msg => msg.mkString(" ")
-
-  val decodeWords: List[String] => List[String] = words => words.map(getLetters andThen decodeLetters).map(_.mkString)
-
-  val getLetters: String => List[String] = word => word.split(" ").toList
-  val decodeLetters: List[String] => List[String] = letters => letters.map(MorseCodes.morseCodes.getOrElse(_, ""))
-
-  val d: String => String = getWords andThen decodeWords andThen composeMessage
-
-  def decode(msg: String): String = d.apply(msg).trim
+  import MorseCodes.morseCodes
+  def decode(msg: String): String = msg
+    .trim
+    .split(" {3}")
+    .map(_.split(' ').map(morseCodes).mkString)
+    .mkString(" ")
 
 }
