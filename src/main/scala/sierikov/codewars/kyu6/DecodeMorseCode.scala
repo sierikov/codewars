@@ -67,10 +67,11 @@ object DecodeMorseCode {
   }
 
   import MorseCodes.morseCodes
-  def decode(msg: String): String = msg
-    .trim
-    .split(" {3}")
-    .map(_.split(' ').map(morseCodes).mkString)
-    .mkString(" ")
+
+  def decode(msg: String): String =
+    msg.trim
+      .split(" {3}")
+      .map(_.split(' ').map(morseCodes).mkString)
+      .mkString(" ")
 
 }

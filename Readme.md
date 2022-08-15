@@ -12,7 +12,8 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Texas Hold'em Hands](https://www.codewars.com/kata/524c74f855025e2495000262)
 
 ### 4 kuy
-[Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c)
+[Decode the Morse Code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457)
+[Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c),
 
 ### 5 kuy
 
@@ -21,6 +22,9 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Number of trailing zeros of N!](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34),
 [Product of consecutive Fib numbers](https://www.codewars.com/kata/5541f58a944b85ce6d00006a),
 [RGB To Hex Conversion](https://www.codewars.com/kata/513e08acc600c94f01000001),
+
+### 6 kuy
+[Decode the Morse code](https://www.codewars.com/kata/decode-the-morse-code)
 
 ### 8 kuy
 [Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a)
