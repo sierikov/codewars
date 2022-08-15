@@ -25,6 +25,10 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 
 ### 6 kuy
 [Decode the Morse code](https://www.codewars.com/kata/decode-the-morse-code)
+[Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001)
+
+### 7 kyu
+[Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038)
 
 ### 8 kuy
 [Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a)
