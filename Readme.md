@@ -24,11 +24,12 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [RGB To Hex Conversion](https://www.codewars.com/kata/513e08acc600c94f01000001),
 
 ### 6 kuy
-[Decode the Morse code](https://www.codewars.com/kata/decode-the-morse-code)
+[Decode the Morse code](https://www.codewars.com/kata/decode-the-morse-code),
 [Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001)
 
 ### 7 kyu
-[Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038)
+[Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038),
+[Interlocking Binary Pairs](https://www.codewars.com/kata/628e3ee2e1daf90030239e8a)
 
 ### 8 kuy
 [Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a)
