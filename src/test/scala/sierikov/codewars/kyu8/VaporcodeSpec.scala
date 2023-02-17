@@ -1,7 +1,7 @@
 package sierikov.codewars.kyu8
 
 import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.should.Matchers.convertToAnyShouldWrapper
+import org.scalatest.matchers.should.Matchers.shouldEqual
 
 class VaporcodeSpec extends AnyFlatSpec {
 
@@ -11,8 +11,8 @@ class VaporcodeSpec extends AnyFlatSpec {
   )
 
   it should "correctly encode given strings" in {
-    testData.map {
-      case (input, expected) => Vaporcode.encode(input) shouldEqual expected
+    testData.map { case (input, expected) =>
+      Vaporcode.encode(input) shouldEqual expected
     }
   }
 }

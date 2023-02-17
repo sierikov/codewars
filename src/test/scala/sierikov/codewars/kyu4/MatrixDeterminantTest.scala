@@ -2,7 +2,7 @@ package sierikov.codewars.kyu4
 
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
-import org.scalatest.matchers.should.Matchers.convertToAnyShouldWrapper
+import org.scalatest.matchers.should.Matchers.should
 
 class MatrixDeterminantTest extends AnyFlatSpec with Matchers {
 
@@ -13,14 +13,13 @@ class MatrixDeterminantTest extends AnyFlatSpec with Matchers {
     (Array(Array(-9, -3, -6, -8), Array(-3, 5, 2, 9), Array(3, 3, -8, 9), Array(7, -8, 5, -6)), 5770, None)
   )
 
-  tests.foreach {
-    case (matrix, expected, message) =>
-      val matrixStr = s"Array(${matrix.map(r => s"Array(${r.mkString(", ")})").mkString(", ")})"
-      s"determinant($matrixStr)" should s"return $expected" in {
-        message match {
-          case Some(_) => withClue(message) { MatrixDeterminant.determinant(matrix) should be(expected) }
-          case None => MatrixDeterminant.determinant(matrix) should be(expected)
-        }
+  tests.foreach { case (matrix, expected, message) =>
+    val matrixStr = s"Array(${matrix.map(r => s"Array(${r.mkString(", ")})").mkString(", ")})"
+    s"determinant($matrixStr)" should s"return $expected" in {
+      message match {
+        case Some(_) => withClue(message) { MatrixDeterminant.determinant(matrix) should be(expected) }
+        case None    => MatrixDeterminant.determinant(matrix) should be(expected)
       }
+    }
   }
 }

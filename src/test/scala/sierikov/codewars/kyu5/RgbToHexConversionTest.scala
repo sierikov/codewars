@@ -1,7 +1,7 @@
 package sierikov.codewars.kyu5
 
 import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.should.Matchers.convertToAnyShouldWrapper
+import org.scalatest.matchers.should.Matchers.shouldEqual
 
 class RgbToHexConversionTest extends AnyFlatSpec {
 
@@ -17,8 +17,8 @@ class RgbToHexConversionTest extends AnyFlatSpec {
   )
 
   it should "calculate correctly using immutable" in {
-    testData.map {
-      case (r, g, b, expected) => RgbToHexConversion.toRgb(r, g, b) shouldEqual expected
+    testData.map { case (r, g, b, expected) =>
+      RgbToHexConversion.toRgb(r, g, b) shouldEqual expected
     }
   }
 }

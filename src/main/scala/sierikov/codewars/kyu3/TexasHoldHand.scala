@@ -26,7 +26,7 @@ object TexasHoldHand {
 
     override def equals(that: Any): Boolean = that match {
       case that: Card => this.hashCode == that.hashCode
-      case _ => false
+      case _          => false
     }
 
     override def hashCode(): Int = this.rank + this.mark.hashCode
@@ -37,12 +37,12 @@ object TexasHoldHand {
     val numberR: Regex = """\d{1,2}""".r
 
     def calcRank(mark: String): Int = mark match {
-      case "A" => 14
-      case "K" => 13
-      case "Q" => 12
-      case "J" => 11
+      case "A"         => 14
+      case "K"         => 13
+      case "Q"         => 12
+      case "J"         => 11
       case numberR(_*) => mark.toInt
-      case _ => -1
+      case _           => -1
     }
 
     def apply(s: String): Card = s match {
@@ -160,7 +160,7 @@ object TexasHoldHand {
   }
 
   def findCombination(cards: List[Card]): (String, List[String]) = {
-    import Detector._
+    import Detector.*
 
     checkStraightFlush(cards)
       .orElse(checkFourOfKind(cards))

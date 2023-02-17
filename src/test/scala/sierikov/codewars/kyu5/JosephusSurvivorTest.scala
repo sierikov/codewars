@@ -3,7 +3,7 @@ package sierikov.codewars.kyu5
 import org.scalatest.Assertion
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
-import org.scalatest.matchers.should.Matchers.convertToAnyShouldWrapper
+import org.scalatest.matchers.should.Matchers.{shouldBe, shouldEqual}
 
 class JosephusSurvivorTest extends AnyFlatSpec with Matchers {
 

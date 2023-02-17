@@ -1,7 +1,7 @@
 package sierikov.codewars.kyu5
 
 import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.should.Matchers.convertToAnyShouldWrapper
+import org.scalatest.matchers.should.Matchers.shouldEqual
 
 class HelpYourGrannyTest extends AnyFlatSpec {
 
@@ -36,8 +36,8 @@ class HelpYourGrannyTest extends AnyFlatSpec {
     )
   )
   it should "pass basic tests" in {
-    testData.map {
-      case (friends, towns, distances, result) => HelpYourGranny.tour(friends, towns, distances) shouldEqual result
+    testData.map { case (friends, towns, distances, result) =>
+      HelpYourGranny.tour(friends, towns, distances) shouldEqual result
     }
   }
 }

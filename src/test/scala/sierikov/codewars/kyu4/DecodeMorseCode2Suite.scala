@@ -4,7 +4,7 @@ import org.scalatest.funsuite.AnyFunSuite
 
 class DecodeMorseCode2Suite extends AnyFunSuite {
 
-  import DecodeMorseCode2._
+  import DecodeMorseCode2.*
 
   def d(msg: String): String = decodeMorse(decodeBits(msg))
 

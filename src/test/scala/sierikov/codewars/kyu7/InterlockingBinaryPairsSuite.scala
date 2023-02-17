@@ -27,9 +27,8 @@ class InterlockingBinaryPairsSuite extends AnyFunSuite {
     (7904196764200455158L, 6609211195221931760L, false)
   )
 
-  def runTest(cases: Seq[TestCase]): Unit = basicTestCases.foreach {
-    case (a, b, result) =>
-      assertResult(result, s"Inputs:  a = $a b = $b")(InterlockingBinaryPairs.interlockable(a, b))
+  def runTest(cases: Seq[TestCase]): Unit = basicTestCases.foreach { case (a, b, result) =>
+    assertResult(result, s"Inputs:  a = $a b = $b")(InterlockingBinaryPairs.interlockable(a, b))
   }
 
   test("basic") { runTest(basicTestCases) }

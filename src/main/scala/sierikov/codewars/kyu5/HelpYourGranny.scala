@@ -3,9 +3,9 @@ package sierikov.codewars.kyu5
 object HelpYourGranny {
 
   def takeOnlyRelevantDistances(
-      friends: List[String],
-      towns: List[(String, String)],
-      distances: Map[String, Double]
+    friends: List[String],
+    towns: List[(String, String)],
+    distances: Map[String, Double]
   ): Seq[Double] =
     friends
       .flatMap(friend => towns.find { case (person, _) => person == friend })
@@ -22,7 +22,8 @@ object HelpYourGranny {
 
     val path = distance
       .sliding(2, 1)
-      .map { case List(current, next) => findSidePythagoras(current, next) }
+      .map(list => (list.head, list.last))
+      .map { case (current, next) => findSidePythagoras(current, next) }
       .sum
 
     (path + distance.head + distance.last).toInt

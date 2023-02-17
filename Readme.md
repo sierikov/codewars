@@ -22,10 +22,12 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Number of trailing zeros of N!](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34),
 [Product of consecutive Fib numbers](https://www.codewars.com/kata/5541f58a944b85ce6d00006a),
 [RGB To Hex Conversion](https://www.codewars.com/kata/513e08acc600c94f01000001),
+[Move Zero To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0),
 
 ### 6 kuy
 [Decode the Morse code](https://www.codewars.com/kata/decode-the-morse-code),
-[Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001)
+[Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001),
+[Which are in?](https://www.codewars.com/kata/550554fd08b86f84fe000a58/train/scala)
 
 ### 7 kyu
 [Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038),

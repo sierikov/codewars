@@ -1,11 +1,13 @@
-lazy val root = (project in file("."))
-  .settings(name := "codewars")
-  .settings(moduleName := "codewars")
-  .settings(version := "0.1")
-  .settings(scalaVersion := "2.13.5")
-
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.12"
-
-scalacOptions ++= Seq("-deprecation", "-feature")
+lazy val root = project
+  .in(file("."))
+  .settings(
+    name := "codewars",
+    moduleName := "codewars",
+    description := "Collection of solutions to codewars problems",
+    version := "0.0.2",
+    scalaVersion := "3.2.2",
+    scalacOptions ++= Seq("-deprecation", "-feature"),
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.15" % Test
+  )
 
 addCommandAlias("check", ";scalafmtCheck;Test / scalafmtCheck")
