@@ -23,6 +23,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Product of consecutive Fib numbers](https://www.codewars.com/kata/5541f58a944b85ce6d00006a),
 [RGB To Hex Conversion](https://www.codewars.com/kata/513e08acc600c94f01000001),
 [Move Zero To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0),
+[Lunar Drilling Operation](https://www.codewars.com/kata/63ada5a5779bac0066143fa0),
 
 ### 6 kuy
 [Decode the Morse code](https://www.codewars.com/kata/decode-the-morse-code),
