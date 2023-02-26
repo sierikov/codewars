@@ -2,7 +2,7 @@ package sierikov.codewars.kyu5
 
 import sierikov.codewars.kyu5.LunarDrill.drill
 
-class DrillSpec extends org.scalatest.flatspec.AnyFlatSpec {
+class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
   "Mechanics Tests: Drill Type Detection" should "pass" in {
     val testCases = List(
       (0, "´`:->............"),
