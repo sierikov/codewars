@@ -28,8 +28,9 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 ### 6 kuy
 [Decode the Morse code](https://www.codewars.com/kata/decode-the-morse-code),
 [Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001),
-[Which are in?](https://www.codewars.com/kata/550554fd08b86f84fe000a58/train/scala),
+[Which are in?](https://www.codewars.com/kata/550554fd08b86f84fe000a58),
 [Roman Numerals Encoder](https://www.codewars.com/kata/51b62bf6a9c58071c600001b)
+[Rainfall](https://www.codewars.com/kata/56a32dd6e4f4748cc3000006)
 
 ### 7 kyu
 [Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038),
