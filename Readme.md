@@ -14,6 +14,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 ### 4 kuy
 [Decode the Morse Code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457)
 [Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c),
+[Snail](https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1)
 
 ### 5 kuy
 
