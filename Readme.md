@@ -40,4 +40,6 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Interlocking Binary Pairs](https://www.codewars.com/kata/628e3ee2e1daf90030239e8a)
 
 ### 8 kuy
-[Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a)
+[Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a),
+[Counting sheep](https://www.codewars.com/kata/54edbc7200b811e956000556),
+[Lario and Muigi Pipe Problem](https://www.codewars.com/kata/56b29582461215098d00000f),
