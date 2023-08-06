@@ -11,7 +11,7 @@ class ValidParenthesesSpec extends AnyFlatSpec {
     assertResult(expected, s"\nInput: braces = $input")(validParentheses(input))
   }
 
-  "Vvalid parentheses" should "return true" in {
+  "Valid parentheses" should "return true" in {
     exec(
       Seq(
         ("()", true),
