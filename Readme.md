@@ -10,6 +10,8 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 
 ### 3 kuy
 [Texas Hold'em Hands](https://www.codewars.com/kata/524c74f855025e2495000262)
+[Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26),
+[Alphabetic Anagrams](https://www.codewars.com/kata/53e57dada0cb0400ba000688),
 
 ### 4 kuy
 [Decode the Morse Code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457)
