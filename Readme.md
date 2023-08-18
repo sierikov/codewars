@@ -39,7 +39,8 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 
 ### 7 kyu
 [Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038),
-[Interlocking Binary Pairs](https://www.codewars.com/kata/628e3ee2e1daf90030239e8a)
+[Interlocking Binary Pairs](https://www.codewars.com/kata/628e3ee2e1daf90030239e8a),
+[Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3),
 
 ### 8 kuy
 [Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a),
