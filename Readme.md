@@ -35,7 +35,8 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Roman Numerals Encoder](https://www.codewars.com/kata/51b62bf6a9c58071c600001b)
 [Rainfall](https://www.codewars.com/kata/56a32dd6e4f4748cc3000006),
 [Calculate Pyramid Height](https://www.codewars.com/kata/56968ce7753513604b000055),
-[Simple Web Framework #1: Create a basic router](https://www.codewars.com/kata/588a00ad70720f2cd9000005)
+[Simple Web Framework #1: Create a basic router](https://www.codewars.com/kata/588a00ad70720f2cd9000005),
+[Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362),
 
 ### 7 kyu
 [Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038),
