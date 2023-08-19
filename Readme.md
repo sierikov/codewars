@@ -37,6 +37,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Calculate Pyramid Height](https://www.codewars.com/kata/56968ce7753513604b000055),
 [Simple Web Framework #1: Create a basic router](https://www.codewars.com/kata/588a00ad70720f2cd9000005),
 [Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362),
+[Take a Ten Minute Walk](https://www.codewars.com/kata/54da539698b8a2ad76000228),
 
 ### 7 kyu
 [Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038),
