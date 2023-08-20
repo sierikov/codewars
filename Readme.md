@@ -47,6 +47,8 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3),
 [Exes and Ohs](https://www.codewars.com/kata/55908aad6620c066bc00002a),
 [Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e),
+[Eliminate the intruders! Bit manipulation](https://www.codewars.com/kata/5a0d38c9697598b67a000041),
+
 
 ### 8 kuy
 [Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a),
