@@ -50,3 +50,4 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a),
 [Counting sheep](https://www.codewars.com/kata/54edbc7200b811e956000556),
 [Lario and Muigi Pipe Problem](https://www.codewars.com/kata/56b29582461215098d00000f),
+[Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097),
