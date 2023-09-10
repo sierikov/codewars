@@ -48,6 +48,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Exes and Ohs](https://www.codewars.com/kata/55908aad6620c066bc00002a),
 [Disemvowel Trolls](https://www.codewars.com/kata/52fba66badcd10859f00097e),
 [Eliminate the intruders! Bit manipulation](https://www.codewars.com/kata/5a0d38c9697598b67a000041),
+[Jaden Casing Strings](https://www.codewars.com/kata/5390bac347d09b7da40006f6),
 
 
 ### 8 kuy
