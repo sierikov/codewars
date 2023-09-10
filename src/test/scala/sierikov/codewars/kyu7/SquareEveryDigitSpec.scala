@@ -6,7 +6,7 @@ import matchers.should._
 
 class SquareEveryDigitSpec extends AnyFlatSpec with Matchers {
   import SquareEveryDigit.squareDigits
-  
+
   "squareDigits(9119)" should "return 811181" in {
     squareDigits(9119) shouldBe 811181
   }

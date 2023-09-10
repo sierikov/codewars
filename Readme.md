@@ -40,6 +40,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Take a Ten Minute Walk](https://www.codewars.com/kata/54da539698b8a2ad76000228),
 [Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836),
 [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c),
+[Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009),
 
 ### 7 kyu
 [Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038),
