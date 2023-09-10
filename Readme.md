@@ -50,6 +50,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Eliminate the intruders! Bit manipulation](https://www.codewars.com/kata/5a0d38c9697598b67a000041),
 [Jaden Casing Strings](https://www.codewars.com/kata/5390bac347d09b7da40006f6),
 [Square every digit](https://www.codewars.com/kata/546e2562b03326a88e000020),
+[Printer Errors](https://www.codewars.com/kata/56541980fa08ab47a0000040),
 
 ### 8 kuy
 [Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a),
