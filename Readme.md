@@ -9,12 +9,12 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 
 
 ### 3 kuy
-[Texas Hold'em Hands](https://www.codewars.com/kata/524c74f855025e2495000262)
+[Texas Hold'em Hands](https://www.codewars.com/kata/524c74f855025e2495000262),
 [Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26),
 [Alphabetic Anagrams](https://www.codewars.com/kata/53e57dada0cb0400ba000688),
 
 ### 4 kuy
-[Decode the Morse Code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457)
+[Decode the Morse Code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457),
 [Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c),
 [Snail](https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1)
 
@@ -32,7 +32,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Decode the Morse code](https://www.codewars.com/kata/decode-the-morse-code),
 [Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001),
 [Which are in?](https://www.codewars.com/kata/550554fd08b86f84fe000a58),
-[Roman Numerals Encoder](https://www.codewars.com/kata/51b62bf6a9c58071c600001b)
+[Roman Numerals Encoder](https://www.codewars.com/kata/51b62bf6a9c58071c600001b),
 [Rainfall](https://www.codewars.com/kata/56a32dd6e4f4748cc3000006),
 [Calculate Pyramid Height](https://www.codewars.com/kata/56968ce7753513604b000055),
 [Simple Web Framework #1: Create a basic router](https://www.codewars.com/kata/588a00ad70720f2cd9000005),
@@ -52,6 +52,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Jaden Casing Strings](https://www.codewars.com/kata/5390bac347d09b7da40006f6),
 [Square every digit](https://www.codewars.com/kata/546e2562b03326a88e000020),
 [Printer Errors](https://www.codewars.com/kata/56541980fa08ab47a0000040),
+[List Filtering](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd),
 
 ### 8 kuy
 [Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a),
