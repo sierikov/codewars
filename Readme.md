@@ -9,11 +9,13 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 
 
 ### 3 kuy
+
 [Texas Hold'em Hands](https://www.codewars.com/kata/524c74f855025e2495000262),
 [Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26),
 [Alphabetic Anagrams](https://www.codewars.com/kata/53e57dada0cb0400ba000688),
 
 ### 4 kuy
+
 [Decode the Morse Code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457),
 [Matrix Determinant](https://www.codewars.com/kata/52a382ee44408cea2500074c),
 [Snail](https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1)
@@ -27,8 +29,11 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [RGB To Hex Conversion](https://www.codewars.com/kata/513e08acc600c94f01000001),
 [Move Zero To The End](https://www.codewars.com/kata/52597aa56021e91c93000cb0),
 [Lunar Drilling Operation](https://www.codewars.com/kata/63ada5a5779bac0066143fa0),
-[Perimeter of squares in a rectangle](https://www.codewars.com/kata/559a28007caad2ac4e000083)
+[Perimeter of squares in a rectangle](https://www.codewars.com/kata/559a28007caad2ac4e000083),
+[The Hashtag Generator](https://www.codewars.com/kata/52449b062fb80683ec000024),
+
 ### 6 kuy
+
 [Decode the Morse code](https://www.codewars.com/kata/decode-the-morse-code),
 [Split Strings](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001),
 [Which are in?](https://www.codewars.com/kata/550554fd08b86f84fe000a58),
@@ -44,6 +49,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c),
 
 ### 7 kyu
+
 [Complementary DNA](https://www.codewars.com/kata/554e4a2f232cdd87d9000038),
 [Interlocking Binary Pairs](https://www.codewars.com/kata/628e3ee2e1daf90030239e8a),
 [Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3),
@@ -56,6 +62,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [List Filtering](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd),
 
 ### 8 kuy
+
 [Vaporcode](https://www.codewars.com/kata/5966eeb31b229e44eb00007a),
 [Counting sheep](https://www.codewars.com/kata/54edbc7200b811e956000556),
 [Lario and Muigi Pipe Problem](https://www.codewars.com/kata/56b29582461215098d00000f),
