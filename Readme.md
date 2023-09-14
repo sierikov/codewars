@@ -61,6 +61,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Printer Errors](https://www.codewars.com/kata/56541980fa08ab47a0000040),
 [List Filtering](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd),
 [Regex validate PIN code](https://www.codewars.com/kata/55f8a9c06c018a0d6e000132),
+[Sum of odd numbers](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064),
 
 ### 8 kuy
 

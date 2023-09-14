@@ -4,8 +4,8 @@ object AreTheyTheSame {
 
   def comp(seq1: Seq[Int], seq2: Seq[Int]): Boolean = (seq1, seq2) match
     case (null, null) | (null, _) | (_, null) => false
-    case (Nil, Nil)   => true
-    case (a, b)       => if (a.size != b.size) false else isAllSquared(a, b)
+    case (Nil, Nil)                           => true
+    case (a, b)                               => if (a.size != b.size) false else isAllSquared(a, b)
 
   private def isAllSquared(seq1: Seq[Int], seq2: Seq[Int]): Boolean = {
     val sortedSeq1 = seq1.sorted
