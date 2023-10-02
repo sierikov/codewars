@@ -47,6 +47,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c),
 [Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009),
 [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c),
+[Playing with passphrases](https://www.codewars.com/kata/559536379512a64472000053),
 
 ### 7 kyu
 
