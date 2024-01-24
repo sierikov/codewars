@@ -1,5 +1,7 @@
 .vscode
 .metals
+metals.sbt
+.bloop
 .bsp
 target
 out

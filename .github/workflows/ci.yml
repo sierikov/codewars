@@ -14,9 +14,7 @@ jobs:
           distribution: temurin
           java-version: 11
       - name: Format sources
-        run: sbt scalafmtCheck
-      - name: Format test
-        run: sbt Test/scalafmtCheck
+        run: sbt scalafmtCheckAll
 
   test:
     runs-on: ubuntu-latest
@@ -36,6 +34,6 @@ jobs:
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-          name: codewars # optional
-          fail_ci_if_error: true # optional (default = false)
-          verbose: true # optional (default = false)
+          name: codewars
+          fail_ci_if_error: true
+          verbose: false
