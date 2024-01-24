@@ -3,7 +3,7 @@ package sierikov.codewars.kyu5
 import sierikov.codewars.kyu5.LunarDrill.drill
 
 class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
-  "Mechanics Tests: Drill Type Detection" should "pass" in {
+  "Mechanics Tests" should "detect drill" in {
     val testCases = List(
       (0, "´`:->............"),
       (0, "´`:-->..........."),
@@ -18,16 +18,16 @@ class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
       (0, "´`:==>>.........."),
       (0,
        """´`:->............
-´`:-->...........
-´`:--->..........
-´`:=>............
-´`:==>...........
-´`:===>..........
-´`:->>...........
-´`:-->>..........
-´`:->>>..........
-´`:=>>...........
-´`:==>>.........."""
+         |´`:-->...........
+         |´`:--->..........
+         |´`:=>............
+         |´`:==>...........
+         |´`:===>..........
+         |´`:->>...........
+         |´`:-->>..........
+         |´`:->>>..........
+         |´`:=>>...........
+         |´`:==>>..........""".stripMargin
       )
     )
 
@@ -36,7 +36,7 @@ class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
     }
   }
 
-  "Mechanics Tests: Regular Speed" should "pass" in {
+  it should "move with regular speed" in {
     val testCases = List(
       (1, "´`:->*..........."),
       (2, "´`:->.*.........."),
@@ -65,7 +65,7 @@ class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
     }
   }
 
-  "Mechanics Tests: Double Speed" should "pass" in {
+  it should "move with double speed" in {
     val testCases = List(
       (1, "´`:->>*.........."),
       (2, "´`:->>.*........."),
@@ -94,7 +94,7 @@ class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
     }
   }
 
-  "Mechanics Tests: Double Power" should "pass" in {
+  it should "detect double power" in {
     val testCases = List(
       (1, "´`:=>*..........."),
       (2, "´`:=>.*.........."),
@@ -123,7 +123,7 @@ class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
     }
   }
 
-  "Mechanics Tests: Triple Speed" should "pass" in {
+  it should "move with tripple speed" in {
     val testCases = List(
       (1, "´`:->>>*........."),
       (2, "´`:->>>.*........"),
@@ -152,7 +152,7 @@ class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
     }
   }
 
-  "Mechanics Tests: Double Speed - Double Power" should "pass" in {
+  it should "move with double speed and double power" in {
     val testCases = List(
       (1, "´`:=>>*.........."),
       (2, "´`:=>>.*........."),
@@ -181,38 +181,38 @@ class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
     }
   }
 
-  "Mechanics Tests: Multiple Arms" should "pass" in {
+  it should "operate with multiple arms" in {
     val testCases = List(
       (1,
        """´`:->*...........
-´`:-->*.........."""
+         |´`:-->*..........""".stripMargin
       ),
       (4,
        """´`:->@...........
-´`:=>@..........."""
+         |´`:=>@...........""".stripMargin
       ),
       (2,
        """´`:->x...........
-´`:=>@..........."""
+         |´`:=>@...........""".stripMargin
       ),
       (4,
        """´`:->*x..........
-´`:->>>@........."""
+         |´`:->>>@.........""".stripMargin
       ),
       (8,
        """´`:===>@@@.......
-´`:->>>..***.....
-´`:-->>..xxx....."""
+         |´`:->>>..***.....
+         |´`:-->>..xxx.....""".stripMargin
       ),
       (9,
        """´`:===>@@@.......
-´`:->>>...***....
-´`:-->>...xxx...."""
+         |´`:->>>...***....
+         |´`:-->>...xxx....""".stripMargin
       ),
       (10,
        """´`:===>@@@.......
-´`:->>>...***....
-´`:-->>...xxX...."""
+         |´`:->>>...***....
+         |´`:-->>...xxX....""".stripMargin
       )
     )
 
@@ -221,7 +221,7 @@ class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
     }
   }
 
-  "Sample Tests: Drillatronino" should "pass" in {
+  "Drilatronio" should "pass test field" in {
     val testCases = List(
       (12, "´`:->..**..**..**.."),
       (12, "´`:->>..**..**..**."),
@@ -245,46 +245,46 @@ class LunarDrillSuite extends org.scalatest.flatspec.AnyFlatSpec {
     }
   }
 
-  "Sample Tests: Drillatron" should "pass" in {
+  it should "pass stress field" in {
     val testCases = List(
       (41,
        """´`:->...xxxx..****..****..****....
-´`:->...****..xxxx..****..****....
-´`:->...****..****..xxxx..****....
-´`:->...****..****..****..xxxx...."""
+         |´`:->...****..xxxx..****..****....
+         |´`:->...****..****..xxxx..****....
+         |´`:->...****..****..****..xxxx....""".stripMargin
       ),
       (49,
        """´`:->...XXXX..****..****..****....
-´`:=>...****..XXXX..****..****....
-´`:=>...****..****..XXXX..****....
-´`:->...****..****..****..XXXX...."""
+         |´`:=>...****..XXXX..****..****....
+         |´`:=>...****..****..XXXX..****....
+         |´`:->...****..****..****..XXXX....""".stripMargin
       ),
       (32,
        """´`:->>>.@@@@..****..****..****....
-´`:=>>..****..@@@@..****..****....
-´`:=>>..****..****..@@@@..****....
-´`:->>>.****..****..****..@@@@...."""
+         |´`:=>>..****..@@@@..****..****....
+         |´`:=>>..****..****..@@@@..****....
+         |´`:->>>.****..****..****..@@@@....""".stripMargin
       ),
       (32,
        """´`:->...**..xx..XX..@@..
-´`:->>..**..xx..XX..@@..
-´`:->>>.**..xx..XX..@@.."""
+         |´`:->>..**..xx..XX..@@..
+         |´`:->>>.**..xx..XX..@@..""".stripMargin
       ),
       (46,
        """´`:->...x**xx***xx****x.************
-´`:->>>.***@xx@@X@.*@@*..@@@XXXxx@.."""
+         |´`:->>>.***@xx@@X@.*@@*..@@@XXXxx@..""".stripMargin
       ),
       (36,
        """´`:--->***XXX**xx..**xx.xx
-´`:-->>>.xx.XX@@@@.***....
-´`:===>.X.@@@..XXXX**xxx*.
-´`:=>>.xxX..@@.XX**...xxx."""
+         |´`:-->>>.xx.XX@@@@.***....
+         |´`:===>.X.@@@..XXXX**xxx*.
+         |´`:=>>.xxX..@@.XX**...xxx.""".stripMargin
       ),
       (32,
        """´`:========>>XXX**xx.....
-´`:->>>.xx.XX@@@@.***....
-´`:-->>...@@@..XXXX*****.
-´`:=>...xxX..@@.XXXXxxxxx"""
+         |´`:->>>.xx.XX@@@@.***....
+         |´`:-->>...@@@..XXXX*****.
+         |´`:=>...xxX..@@.XXXXxxxxx""".stripMargin
       )
     )
 

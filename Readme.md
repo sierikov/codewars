@@ -63,6 +63,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [List Filtering](https://www.codewars.com/kata/53dbd5315a3c69eed20002dd),
 [Regex validate PIN code](https://www.codewars.com/kata/55f8a9c06c018a0d6e000132),
 [Sum of odd numbers](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064),
+[Highest and Lowest](https://www.codewars.com/kata/554b4ac871d6813a03000035),
 
 ### 8 kuy
 
@@ -70,3 +71,6 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Counting sheep](https://www.codewars.com/kata/54edbc7200b811e956000556),
 [Lario and Muigi Pipe Problem](https://www.codewars.com/kata/56b29582461215098d00000f),
 [Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097),
+[Convert a Number to a String!](https://www.codewars.com/kata/5265326f5fda8eb1160004c8/train/scala),
+[Return Negative](https://www.codewars.com/kata/55685cd7ad70877c23000102),
+[Sum of Positive](https://www.codewars.com/kata/5715eaedb436cf5606000381)

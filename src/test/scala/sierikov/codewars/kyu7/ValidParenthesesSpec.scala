@@ -11,7 +11,7 @@ class ValidParenthesesSpec extends AnyFlatSpec {
     assertResult(expected, s"\nInput: braces = $input")(validParentheses(input))
   }
 
-  "Valid parentheses" should "return true" in {
+  it should "return true on valid parentheses" in {
     exec(
       Seq(
         ("()", true),
@@ -23,7 +23,7 @@ class ValidParenthesesSpec extends AnyFlatSpec {
     )
   }
 
-  "Unbalanced parentheses" should "return false" in {
+  it should "return false on unbalanced parenthese" in {
     exec(
       Seq(
         (")(", false),
@@ -36,7 +36,7 @@ class ValidParenthesesSpec extends AnyFlatSpec {
     )
   }
 
-  "Empty string" should "return true" in {
+  it should "return true for empty" in {
     exec(Seq(("", true)))
   }
 }
