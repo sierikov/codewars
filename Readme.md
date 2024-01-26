@@ -48,6 +48,8 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009),
 [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c),
 [Playing with passphrases](https://www.codewars.com/kata/559536379512a64472000053),
+[Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00),
+[Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4),
 
 ### 7 kyu
 
@@ -64,6 +66,10 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Regex validate PIN code](https://www.codewars.com/kata/55f8a9c06c018a0d6e000132),
 [Sum of odd numbers](https://www.codewars.com/kata/55fd2d567d94ac3bc9000064),
 [Highest and Lowest](https://www.codewars.com/kata/554b4ac871d6813a03000035),
+[Get the Middle Character](https://www.codewars.com/kata/56747fd5cb988479af000028),
+[Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1),
+[Shortest Word](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9),
+[Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039),
 
 ### 8 kuy
 
