@@ -14,10 +14,9 @@ class IsogramSpec extends AnyFlatSpec {
     ("", true)
   )
 
-  tests.foreach {
-    case (input, expected) =>
-      it should s"return $expected for $input" in {
-        Isogram.isIsogram(input) shouldBe expected
-      }
+  tests.foreach { case (input, expected) =>
+    it should s"return $expected for $input" in {
+      Isogram.isIsogram(input) shouldBe expected
+    }
   }
 }

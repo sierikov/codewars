@@ -12,11 +12,10 @@ class BitCountingSpec extends AnyFlatSpec {
     (10, 2),
     (1234, 5)
   )
-  
-  data.foreach {
-    case (input, expected) =>
-      it should s"return $expected for $input" in {
-        BitCounting.countBits(input) shouldBe expected
-      }
+
+  data.foreach { case (input, expected) =>
+    it should s"return $expected for $input" in {
+      BitCounting.countBits(input) shouldBe expected
+    }
   }
 }

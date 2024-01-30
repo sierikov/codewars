@@ -50,6 +50,8 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Playing with passphrases](https://www.codewars.com/kata/559536379512a64472000053),
 [Digital Root](https://www.codewars.com/kata/541c8630095125aba6000c00),
 [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4),
+[Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1),
+[Find The Parity Outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc),
 
 ### 7 kyu
 

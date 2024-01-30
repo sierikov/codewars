@@ -14,9 +14,8 @@ class DigitalRootSpec extends AnyFlatSpec {
   }
 
   it should "sum digits again if result is 2-digits long" in {
-    twoDigitsData.foreach {
-      case (input, expected) =>
-        DigitalRoot.digitalRoot(input) shouldBe expected
+    twoDigitsData.foreach { case (input, expected) =>
+      DigitalRoot.digitalRoot(input) shouldBe expected
     }
   }
 }

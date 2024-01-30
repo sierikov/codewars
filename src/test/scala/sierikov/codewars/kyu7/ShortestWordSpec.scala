@@ -13,10 +13,9 @@ class ShortestWordSpec extends AnyFlatSpec {
     ("lets all go on holiday somewhere very cold", 2)
   )
 
-  tests.foreach {
-    case (input, expected) =>
-      it should s"return $expected for ${input.take(8)}.." in {
-        ShortestWord.findShort(input) shouldBe expected
-      }
+  tests.foreach { case (input, expected) =>
+    it should s"return $expected for ${input.take(8)}.." in {
+      ShortestWord.findShort(input) shouldBe expected
+    }
   }
 }

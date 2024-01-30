@@ -13,10 +13,9 @@ class MumblingSpec extends AnyFlatSpec {
     ("HbideVbxncC", "H-Bb-Iii-Dddd-Eeeee-Vvvvvv-Bbbbbbb-Xxxxxxxx-Nnnnnnnnn-Cccccccccc-Ccccccccccc")
   )
 
-  tests.foreach {
-    case (input, expected) =>
-      it should s"return ${expected.take(8)}.. for $input" in {
-        Mumbling.accum(input) shouldBe expected
-      }
+  tests.foreach { case (input, expected) =>
+    it should s"return ${expected.take(8)}.. for $input" in {
+      Mumbling.accum(input) shouldBe expected
+    }
   }
 }

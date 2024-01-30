@@ -6,17 +6,16 @@ import org.scalatest.matchers.should.Matchers.shouldBe
 class GetMiddleCharSpec extends AnyFlatSpec {
 
   private val tests = List(
-    ("test",    "es"),
+    ("test", "es"),
     ("testing", "t"),
-    ("middle",  "dd"),
-    ("A",       "A"),
-    ("of",      "of")
+    ("middle", "dd"),
+    ("A", "A"),
+    ("of", "of")
   )
 
-  tests.foreach {
-    case (input, expected) =>
-      it should s"return $expected for $input" in {
-        GetMiddleChar.middle(input) shouldBe expected
-      }
+  tests.foreach { case (input, expected) =>
+    it should s"return $expected for $input" in {
+      GetMiddleChar.middle(input) shouldBe expected
+    }
   }
 }
