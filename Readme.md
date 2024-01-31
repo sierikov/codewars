@@ -52,6 +52,8 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4),
 [Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1),
 [Find The Parity Outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc),
+[Persistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec),
+[Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667)
 
 ### 7 kyu
 
@@ -72,6 +74,11 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Isograms](https://www.codewars.com/kata/54ba84be607a92aa900000f1),
 [Shortest Word](https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9),
 [Mumbling](https://www.codewars.com/kata/5667e8f4e3f572a8f2000039),
+[Sum of two lowest positive integers](https://www.codewars.com/kata/558fc85d8fd1938afb000014),
+[String ends with?](https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d),
+[Beginner Series #3 Sum of Numbers](https://www.codewars.com/kata/55f2b110f61eb01779000053),
+[Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc),
+[Friend or Foe?](https://www.codewars.com/kata/55b42574ff091733d900002f),
 
 ### 8 kuy
 
@@ -81,4 +88,5 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Century From Year](https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097),
 [Convert a Number to a String!](https://www.codewars.com/kata/5265326f5fda8eb1160004c8/train/scala),
 [Return Negative](https://www.codewars.com/kata/55685cd7ad70877c23000102),
-[Sum of Positive](https://www.codewars.com/kata/5715eaedb436cf5606000381)
+[Sum of Positive](https://www.codewars.com/kata/5715eaedb436cf5606000381),
+[Keep Hydrated!](https://www.codewars.com/kata/582cb0224e56e068d800003c),
