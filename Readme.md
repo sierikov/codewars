@@ -53,7 +53,8 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1),
 [Find The Parity Outlier](https://www.codewars.com/kata/5526fc09a1bbd946250002dc),
 [Persistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec),
-[Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667)
+[Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667),
+[Your order, please!](https://www.codewars.com/kata/55c45be3b2079eccff00010f),
 
 ### 7 kyu
 
@@ -79,6 +80,9 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Beginner Series #3 Sum of Numbers](https://www.codewars.com/kata/55f2b110f61eb01779000053),
 [Credit Card Mask](https://www.codewars.com/kata/5412509bd436bd33920011bc),
 [Friend or Foe?](https://www.codewars.com/kata/55b42574ff091733d900002f),
+[Binary Addition](https://www.codewars.com/kata/551f37452ff852b7bd000139),
+[Is this a triangle?](https://www.codewars.com/kata/56606694ec01347ce800001b),
+[Two to One](https://www.codewars.com/kata/5656b6906de340bd1b0000ac),
 
 ### 8 kuy
 
@@ -90,3 +94,4 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Return Negative](https://www.codewars.com/kata/55685cd7ad70877c23000102),
 [Sum of Positive](https://www.codewars.com/kata/5715eaedb436cf5606000381),
 [Keep Hydrated!](https://www.codewars.com/kata/582cb0224e56e068d800003c),
+[Convert Number to Reversed Array of Digits](https://www.codewars.com/kata/5583090cbe83f4fd8c000051),
