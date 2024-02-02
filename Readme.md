@@ -31,6 +31,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Lunar Drilling Operation](https://www.codewars.com/kata/63ada5a5779bac0066143fa0),
 [Perimeter of squares in a rectangle](https://www.codewars.com/kata/559a28007caad2ac4e000083),
 [The Hashtag Generator](https://www.codewars.com/kata/52449b062fb80683ec000024),
+[Human Readable Time](https://www.codewars.com/kata/52685f7382004e774f0001f7),
 
 ### 6 kuy
 
@@ -55,6 +56,11 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Persistent Bugger.](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec),
 [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667),
 [Your order, please!](https://www.codewars.com/kata/55c45be3b2079eccff00010f),
+[Triboacci Sequence](https://www.codewars.com/kata/556deca17c58da83c00002db),
+[Find the missing letter](https://www.codewars.com/kata/5839edaa6754d6fec10000a2),
+[Equal Sides Of An Array](https://www.codewars.com/kata/5679aa472b8f57fb8c000047),
+[Break camelCase](https://www.codewars.com/kata/5208f99aee097e6552000148),
+[Convert string to camel case](https://www.codewars.com/kata/517abf86da9663f1d2000003)
 
 ### 7 kyu
 
