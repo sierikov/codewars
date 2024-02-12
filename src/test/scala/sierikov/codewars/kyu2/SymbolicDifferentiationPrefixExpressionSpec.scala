@@ -7,7 +7,6 @@ class SymbolicDifferentiationPrefixExpressionSpec extends AnyFlatSpec {
 
   import SymbolicDifferentiationPrefixExpressions._
 
-
   private val parseCases = List(
     "5" -> Value(5),
     "x" -> Variable,
@@ -29,14 +28,12 @@ class SymbolicDifferentiationPrefixExpressionSpec extends AnyFlatSpec {
     "(^ (sin x) 3)" -> Pow(Sin(Variable), Value(3))
   )
 
-  behavior of "Parser"
+  behavior.of("Parser")
   parseCases.foreach { case (expr, expected) =>
     it should s"return $expected for $expr" in {
       Expr.parse(expr) shouldEqual expected
     }
   }
-
-
 
   private val simpleCases = List(
     "5" -> List("0"),

@@ -202,7 +202,7 @@ object SymbolicDifferentiationPrefixExpressions {
       case (_, Value(1))          => l.simplify
       case _                      => Pow(l.simplify, r.simplify)
     }
-    
+
     override def diff: Expr = (l, r) match {
       // (^ (sin x) 3) -> (* 3 (^ (sin x) 2) (cos x))
       case (l, Value(rv)) => Mul(Mul(Value(rv), Pow(l.simplify, Value(rv - 1))), l.simplify.diff)

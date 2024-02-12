@@ -16,6 +16,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Texas Hold'em Hands](https://www.codewars.com/kata/524c74f855025e2495000262),
 [Millionth Fibonacci Kata](https://www.codewars.com/kata/53d40c1e2f13e331fc000c26),
 [Alphabetic Anagrams](https://www.codewars.com/kata/53e57dada0cb0400ba000688),
+[Fabergé Easter Eggs crush test](https://www.codewars.com/kata/54cb771c9b30e8b5250011d4),
 
 ### 4 kuy
 
