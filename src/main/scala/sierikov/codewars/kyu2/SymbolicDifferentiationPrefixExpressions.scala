@@ -160,7 +160,10 @@ object SymbolicDifferentiationPrefixExpressions {
       case _                      => Mul(l.simplify, r.simplify)
     }
 
-    /** The diff of the multiplication function is {{{(f * g)' = f' * g + g' * f}}}. */
+    /** 
+     * The diff of the multiplication function is 
+     * {{{(f * g)' = f' * g + g' * f}}} 
+     */
     override def diff: Expr = Add(Mul(l.simplify, r.simplify.diff), Mul(r.simplify, l.simplify.diff))
     override def print: String = s"(* ${l.print} ${r.print})"
   }
@@ -174,12 +177,21 @@ object SymbolicDifferentiationPrefixExpressions {
       case _                      => Div(l.simplify, r.simplify)
     }
 
-    /** The diff of the division function is {{{(f / g)' = (f' * g - g' * f) / g^2}}}. */
+    /** 
+     * The diff of the division function is 
+     * {{{(f / g)' = (f' * g - g' * f) / g^2}}}
+     */
     override def diff: Expr =
       Div(Sub(Mul(l.simplify.diff, r.simplify), Mul(r.diff.simplify, l.simplify)), Pow(r.simplify, Value(2)))
     override def print: String = s"(/ ${l.print} ${r.print})"
   }
 
+  /**
+   * Due Kata test limitations we need to handle diff for
+   * (expr, value) and (value, expr) cases separately.
+   *
+   * @see [[https://www.codewars.com/kata/584daf7215ac503d5a0001ae/discuss#63d8fd8f9b2a06001cb17e26]]
+   */
   case class Pow(l: Expr, r: Expr) extends Op(l, r) {
 
     override def simplify: Expr = (l, r) match {
@@ -190,11 +202,7 @@ object SymbolicDifferentiationPrefixExpressions {
       case (_, Value(1))          => l.simplify
       case _                      => Pow(l.simplify, r.simplify)
     }
-
-    /** Due Kata test limitations we need to handle diff for
-     * (expr, value) and (value, expr) cases separately.
-     * @see [[https://www.codewars.com/kata/584daf7215ac503d5a0001ae/discuss#63d8fd8f9b2a06001cb17e26]]
-     */
+    
     override def diff: Expr = (l, r) match {
       // (^ (sin x) 3) -> (* 3 (^ (sin x) 2) (cos x))
       case (l, Value(rv)) => Mul(Mul(Value(rv), Pow(l.simplify, Value(rv - 1))), l.simplify.diff)
@@ -210,9 +218,14 @@ object SymbolicDifferentiationPrefixExpressions {
     override def print: String = s"(^ ${l.print} ${r.print})"
   }
 
+  /**
+   * Simplify the given expression until it can't be simplified anymore.
+   * @param expr the expression to simplify
+   * @return the simplified expression
+   */
   def diff(expr: String): String = {
-    val _expr = Expr.parse(expr)
-    var res = _expr.simplify.diff
+    val parsedExpr = Expr.parse(expr)
+    var res = parsedExpr.simplify.diff
 
     while (res.simplify != res) {
       res = res.simplify
