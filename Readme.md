@@ -8,6 +8,9 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 
 ## Solved problems
 
+### 1 kuy
+[Scott Encoding](https://www.codewars.com/kata/59c132fb70a3b7efd3000024)
+
 ### 2 kuy
 [Symbolic differentiation of prefix expressions](https://www.codewars.com/kata/5e7a58d50c6b7a0022e1b852),
 
