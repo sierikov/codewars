@@ -1,19 +1,19 @@
 package sierikov.codewars.kyu1
 
 import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.should.Matchers
+import org.scalatest.matchers.should.Matchers.*
 
-class ScottEncodingSpec extends AnyFlatSpec with Matchers {
+class ScottEncodingSpec extends AnyFlatSpec {
 
   import ScottEncoding._
 
   "The Option type".can("be cast to scala Option") in {
     toOption(new SOption[Int] {
       def apply[B] = (z, _) => z
-    }) should be(None)
+    }) shouldBe None
     toOption(new SOption[Int] {
       def apply[B] = (_, f) => f(4)
-    }) should be(Some(4))
+    }) shouldBe Some(4)
   }
   it.can("be cast from scala Option") in {
     fromOption[Int](None)[Int](0, _ + 1) should be(0)
