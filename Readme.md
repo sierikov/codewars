@@ -40,6 +40,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Perimeter of squares in a rectangle](https://www.codewars.com/kata/559a28007caad2ac4e000083),
 [The Hashtag Generator](https://www.codewars.com/kata/52449b062fb80683ec000024),
 [Human Readable Time](https://www.codewars.com/kata/52685f7382004e774f0001f7),
+[Last Digit of a Large Number](./src/main/scala/sierikov/codewars/kyu5/LastDigitOfLargeNumber.scala),
 
 ### 6 kuy
 
