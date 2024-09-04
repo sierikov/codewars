@@ -42,6 +42,7 @@ Stores my solutions to kata problems listed on [Codewars](https://www.codewars.c
 [Human Readable Time](https://www.codewars.com/kata/52685f7382004e774f0001f7),
 [Last Digit of a Large Number](./src/main/scala/sierikov/codewars/kyu5/LastDigitOfLargeNumber.scala),
 [Coding with Squared String](./src/main/scala/sierikov/codewars/kyu5/CodingWithSquaredStrings.scala)
+[Greed is good](./src/main/scala/sierikov/codewars/kyu5/GreedIsGood.scala)
 
 ### 6 kuy
 
